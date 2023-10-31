@@ -37,7 +37,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 # to compile, but will result in a much faster binary.
 cargo run --release --bin cas -- ./config/examples/basic_cas.json
 ```
-In a separate terminal session, run the following command to connect the running server launched above to Bazel or another BRE client:
+In a separate terminal session, run the following command to connect the running server launched above to Bazel or another RBE client:
 ```sh
 bazel test //... \
   --remote_instance_name=main \
