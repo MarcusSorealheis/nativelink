@@ -343,7 +343,7 @@ where
             };
             match maybe_entry {
                 Some(entry) => {
-                    // Since we are not inserting anythign we don't need to evict based
+                    // Since we are not inserting anything we don't need to evict based
                     // on the size of the store.
                     // Note: We need to check eviction because the item might be expired
                     // based on the current time. In such case, we remove the item while
