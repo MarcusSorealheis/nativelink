@@ -9,8 +9,8 @@ resolver = "2"
 [package]
 edition = "2024"
 name = "nativelink"
-rust-version = "1.87.0"
-version = "1.0.0-rc2"
+rust-version = "1.89.0"
+version = "0.7.5"
 
 [profile.release]
 lto = true
@@ -40,7 +40,6 @@ nativelink-worker = { path = "nativelink-worker" }
 
 async-lock = { version = "3.4.0", features = ["std"], default-features = false }
 axum = { version = "0.8.3", default-features = false }
-bytes = { version = "1.10.1", default-features = false }
 clap = { version = "4.5.35", features = [
   "color",
   "derive",
@@ -52,14 +51,9 @@ clap = { version = "4.5.35", features = [
 ], default-features = false }
 futures = { version = "0.3.31", default-features = false }
 hyper = { version = "1.6.0", default-features = false }
-hyper-util = { version = "0.1.11", default-features = false, features = [
-  "tracing",
-] }
+hyper-util = { version = "0.1.11", default-features = false }
 mimalloc = { version = "0.1.44", default-features = false }
-rand = { version = "0.9.0", default-features = false, features = [
-  "thread_rng",
-] }
-rustls-pki-types = { version = "1.13.1", features = [
+rustls-pemfile = { version = "2.2.0", features = [
   "std",
 ], default-features = false }
 tokio = { version = "1.44.1", features = [
@@ -149,11 +143,9 @@ as-underscore = "deny"
 await-holding-lock = "deny"
 elidable-lifetime-names = "deny"
 explicit-into-iter-loop = "deny"
-future-not-send = "deny"
 redundant-closure-for-method-calls = "deny"
 semicolon-if-nothing-returned = "deny"
 std-instead-of-core = "deny"
-string-lit-as-bytes = "deny"
 todo = "deny"
 
 # Restriction Warnings with default priority
