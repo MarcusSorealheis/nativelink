@@ -335,22 +335,22 @@
     "@@rules_rust+//crate_universe:extension.bzl%crate": {
       "general": {
         "bzlTransitiveDigest": "tfMU6nSfoP788Urih13QYSvRCTvoa5X8Cq2F3wre/5A=",
-        "usagesDigest": "uVQQtAYNGfW0c2TkQ9CmtPwGWiJj764DXkf4SpU+dI8=",
+        "usagesDigest": "Nov4AuYc9DueLx8X/yQqjv2fSJeA9SRt4CP6SaMIG2E=",
         "recordedFileInputs": {
-          "@@//Cargo.lock": "31075052396cfcd34424206f7abce5abfb1381c061ab05dea374226e2499eca4",
-          "@@//Cargo.toml": "39e8d8fa7ba99059764bcc1fae7d5073674065fed842429ca615c0ece78b165d",
-          "@@//nativelink-config/Cargo.toml": "db18e3b9a1283a9b0bfda365cc0f658ea542081c01db01e29b11eef97bedf9a3",
-          "@@//nativelink-error/Cargo.toml": "3364815be57595a892410570cdfcd2d64894973889e2c2af35e912f392df5680",
-          "@@//nativelink-macro/Cargo.toml": "c921cec93cb6559241d73077c54faf39457a3a86a8d8d14f6ee7f275e4a066e5",
-          "@@//nativelink-metric/Cargo.toml": "50875f2f7f152e64f5218a6c5e4705106a48e6f18371323abd68dfde056003ff",
+          "@@//Cargo.lock": "b593d961565666c7e48f1e34e17b169de2c0d8408e5401fbcdf4c8f63923beab",
+          "@@//Cargo.toml": "33a5c722eb61cbc81e2f222b8149cfcf7a79d8a2b41050a6f382498c160a3886",
+          "@@//nativelink-config/Cargo.toml": "9cbc53aab037caade94236a3ffea5bdc9d05c605df4f0ab9430296aa86e13d9d",
+          "@@//nativelink-error/Cargo.toml": "0dbbea34e51e602bb3b51f2d69cb9028305853e79c9c6da8a32b29a4b0106f3f",
+          "@@//nativelink-macro/Cargo.toml": "e2154faea9d4ff3a2e43a5192e23ab6c0b8f398878e97463a380cf601029f7c9",
+          "@@//nativelink-metric/Cargo.toml": "3a4a32ecf28f1ad65371a016dc413e4aef13e9c14045add683c211d4a4273dec",
           "@@//nativelink-metric/nativelink-metric-macro-derive/Cargo.toml": "7266bcce0277fc756bd2c46c8abe73e4ec59b5a68db6aa491fdc9452f9fa681e",
-          "@@//nativelink-proto/Cargo.toml": "2898f7c98f44b0f73ceca6378db172b292561f119210026506aa59099e6e5706",
-          "@@//nativelink-redis-tester/Cargo.toml": "c93a07f302bb8277259dc7a21a695be6bc30f4c3326a57c29fbb059d58107857",
-          "@@//nativelink-scheduler/Cargo.toml": "04f7fd15ade2ed581387d03ba93e6933440e6cc17802644fffb65280b1ea9129",
-          "@@//nativelink-service/Cargo.toml": "bc0235caa9526bbefca091026d266fcd094953f75369672c80177c3427db1db7",
-          "@@//nativelink-store/Cargo.toml": "d8781f8f3cd381c9881118718b1ebfa66af0e10440322ad06c13b0920756d5f1",
-          "@@//nativelink-util/Cargo.toml": "bc3919dd4118bf3bbf335d619137b78262cd5c7bc8049cf20849e41892510a7c",
-          "@@//nativelink-worker/Cargo.toml": "42bc8a81313a088528275e97f47c3d8d350a95160e6e5c59165e97e579e077ad"
+          "@@//nativelink-proto/Cargo.toml": "e3eedc4ef517ee2c1041a98f89c21a8bdce9e855b758511beffc889fd9be6793",
+          "@@//nativelink-redis-tester/Cargo.toml": "36adfbc8f82a44fe819e7ac26108a5589f0ea696cf2dd416ae8f26c82caa5a80",
+          "@@//nativelink-scheduler/Cargo.toml": "6a49c3767a4a1117a4728c929be7e1277126473141d5740d029a306414974e3a",
+          "@@//nativelink-service/Cargo.toml": "b7e61728b5f8dd3e05383810ccf29e2ae54e2f9aaf3c74b417aeff3e79fb6f04",
+          "@@//nativelink-store/Cargo.toml": "cb7bc1bcc84836d947c6aa2a6d979a2aa7252fee641423d44076866b04586bac",
+          "@@//nativelink-util/Cargo.toml": "20d794a4ec1a646dbd27257a0d3f53e57aad23a425d9ec51d0973c498791e77e",
+          "@@//nativelink-worker/Cargo.toml": "24a3b5dc407dd05e56bd46f79c5e309fff1e588bedf5bda3d8b73f406b7ca272"
         },
         "recordedDirentsInputs": {},
         "envVariables": {
