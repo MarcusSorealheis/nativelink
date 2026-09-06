@@ -28,75 +28,11 @@ export const CONFIG_VERSIONS: ConfigVersion[] = [
     "isDev": true
   },
   {
-    "version": "v1.6.6",
-    "label": "v1.6.6 (latest)",
-    "href": "/reference/nativelink-config",
-    "ref": "v1.6.6",
-    "isLatest": true,
-    "isDev": false
-  },
-  {
-    "version": "v1.6.5",
-    "label": "v1.6.5",
-    "href": "/reference/nativelink-config/v1.6.5",
-    "ref": "v1.6.5",
-    "isLatest": false,
-    "isDev": false
-  },
-  {
     "version": "v1.6.4",
-    "label": "v1.6.4",
-    "href": "/reference/nativelink-config/v1.6.4",
+    "label": "v1.6.4 (latest)",
+    "href": "/reference/nativelink-config",
     "ref": "v1.6.4",
-    "isLatest": false,
-    "isDev": false
-  },
-  {
-    "version": "v1.6.3",
-    "label": "v1.6.3",
-    "href": "/reference/nativelink-config/v1.6.3",
-    "ref": "v1.6.3",
-    "isLatest": false,
-    "isDev": false
-  },
-  {
-    "version": "v1.6.2",
-    "label": "v1.6.2",
-    "href": "/reference/nativelink-config/v1.6.2",
-    "ref": "v1.6.2",
-    "isLatest": false,
-    "isDev": false
-  },
-  {
-    "version": "v1.6.1",
-    "label": "v1.6.1",
-    "href": "/reference/nativelink-config/v1.6.1",
-    "ref": "v1.6.1",
-    "isLatest": false,
-    "isDev": false
-  },
-  {
-    "version": "v1.6.0",
-    "label": "v1.6.0",
-    "href": "/reference/nativelink-config/v1.6.0",
-    "ref": "v1.6.0",
-    "isLatest": false,
-    "isDev": false
-  },
-  {
-    "version": "v1.5.2",
-    "label": "v1.5.2",
-    "href": "/reference/nativelink-config/v1.5.2",
-    "ref": "v1.5.2",
-    "isLatest": false,
-    "isDev": false
-  },
-  {
-    "version": "v1.5.1",
-    "label": "v1.5.1",
-    "href": "/reference/nativelink-config/v1.5.1",
-    "ref": "v1.5.1",
-    "isLatest": false,
+    "isLatest": true,
     "isDev": false
   },
   {
